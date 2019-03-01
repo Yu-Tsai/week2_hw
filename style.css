@@ -1,20 +1,22 @@
 body {
   font-family: sans-serif;
   color: white;
+  font-size: medium;
   background-color: black;
 }
 
 #header {
-  padding: 25px;
-  margin: 15px;
+  padding: 15px;
+  margin: 10px;
 }
 
 h1 {
-  font-family: verdana, sans-serif; 
+  font-family: verdana, sans-serif;
+  font-size: 100px;
 }
 
 #menu {
-  text-align: right;
+  margin-right: 10px;
 }
 
 img {
