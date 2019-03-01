@@ -9,6 +9,10 @@ body {
   margin: 15px;
 }
 
+h1 {
+  font-family: verdana, sans-serif; 
+}
+
 #menu {
   text-align: right;
 }
