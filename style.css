@@ -3,21 +3,18 @@ body {
   color: white;
   font-size: medium;
   background-color: black;
+  padding: 10px;
+  margin: 10px;
 }
 
-/*#header {
-  padding: 15px;
-  margin: 10px;
-}*/
-
 #ncku {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
 }
 
 #menu {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
 }
@@ -25,16 +22,52 @@ body {
 h1 {
   font-family: verdana, sans-serif;
   font-size: 100px;
-  padding: 20px;
-  border-bottom: 1px dotted #AAAAAA;
+  padding-bottom: 30px;
+  border-bottom: 3px dotted #AAAAAA;
 }
 
-#menu {
-  margin-right: 10px;
+#main {
+	font-size: 4.5em;
+	font-style: italic;
 }
 
-img {
-  width: 20%;
+#img1 {
+	position: absolute;
+	top: 150px;
+	left: 1065px;
+	width: 20%;
+	z-index: 1;
+}
+
+#img2 {
+	position: absolute;
+	top: 300px;
+	left: 1015px;
+	width: 20%;
+	z-index: 1;
+}
+
+#img3 {
+	position: absolute;
+	top: 45px;
+	left: 890px;
+	width: 17%;
+}
+
+#fbig {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#time {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 a:link {
@@ -48,5 +81,3 @@ a:visited {
 a:hover {
   color: red;
 }
-
-
