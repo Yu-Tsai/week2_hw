@@ -4,4 +4,17 @@ body {
   background-color: black;
 }
 
+header {
+  padding: 25px;
+  margin: 15px;
+}
+
+#menu {
+  text-align: right;
+}
+
+img {
+  width=20%;
+}
+
 
